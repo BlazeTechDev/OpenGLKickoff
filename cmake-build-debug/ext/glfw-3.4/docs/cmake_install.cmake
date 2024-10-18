@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 

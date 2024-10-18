@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.26)
 project(OpenGLKickoff C)
 
 find_package(OpenGL REQUIRED)

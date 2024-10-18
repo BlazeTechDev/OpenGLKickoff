@@ -19,10 +19,11 @@ kck_buffer kck_create_buffer() {
     return buffer;
 }
 
-kck_vertex_buffer kck_create_vertex_buffer(int vertexCount) {
+kck_vertex_buffer kck_create_vertex_buffer(int vertex_data_size) {
     kck_vertex_buffer vBuffer = {};
     kck_buffer buffer = kck_create_buffer();
     vBuffer.buffer = buffer;
+    vBuffer.vertexCount = vertex_data_size / 3;
     return vBuffer;
 }
 
@@ -36,14 +37,15 @@ int kck_create_vertex_attrib_pointer(int location, int size, int type) {
     glEnableVertexAttribArray(location);
 }
 
-kck_index_buffer kck_create_index_buffer(int indexCount) {
+kck_index_buffer kck_create_index_buffer(int index_count) {
     kck_index_buffer iBuffer = {};
     kck_buffer buffer = kck_create_buffer();
     iBuffer.buffer = buffer;
+    iBuffer.indexCount = index_count;
     return iBuffer;
 }
 
-int kck_put_index_buffer(kck_index_buffer* iBuffer, int* data) {
+int kck_put_index_buffer(kck_index_buffer* iBuffer, int* data, int data_size) {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iBuffer->buffer.id);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(data), data, GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(int) * data_size, data, GL_STATIC_DRAW);
 }

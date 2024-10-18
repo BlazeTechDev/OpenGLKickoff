@@ -18,10 +18,10 @@
 BUILD_SHARED_LIBS:BOOL=OFF
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/addr2line.exe
+CMAKE_ADDR2LINE:FILEPATH=C:/MinGW/bin/addr2line.exe
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/ar.exe
+CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -31,15 +31,15 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe
+CMAKE_C_COMPILER:FILEPATH=C:/MinGW/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar.exe
+CMAKE_C_COMPILER_AR:FILEPATH=C:/MinGW/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib.exe
+CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/MinGW/bin/gcc-ranlib.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -60,7 +60,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/dlltool.exe
+CMAKE_DLLTOOL:FILEPATH=C:/MinGW/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -138,7 +138,7 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
+CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
 
 //No help, variable specified on the command line.
 CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe
@@ -164,13 +164,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/nm.exe
+CMAKE_NM:FILEPATH=C:/MinGW/bin/nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe
+CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -197,10 +197,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/ranlib.exe
+CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe
+CMAKE_RC_COMPILER:FILEPATH=C:/MinGW/bin/windres.exe
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=
@@ -218,7 +218,7 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/readelf.exe
+CMAKE_READELF:FILEPATH=C:/MinGW/bin/readelf.exe
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -268,7 +268,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/mingw/bin/strip.exe
+CMAKE_STRIP:FILEPATH=C:/MinGW/bin/strip.exe
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -297,9 +297,6 @@ GLFW_BUILD_TESTS:BOOL=OFF
 //Build support for Win32
 GLFW_BUILD_WIN32:BOOL=ON
 
-//The directory containing a CMake configuration file for GLFW.
-GLFW_DIR:PATH=GLFW_DIR-NOTFOUND
-
 //Generate installation target
 GLFW_INSTALL:BOOL=ON
 
@@ -316,15 +313,6 @@ GLFW_SOURCE_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4
 //Force use of high-performance GPU on hybrid systems
 GLFW_USE_HYBRID_HPG:BOOL=OFF
 
-//Path to a file.
-GLUT_INCLUDE_DIR:PATH=GLUT_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-GLUT_glut_LIBRARY_DEBUG:FILEPATH=GLUT_glut_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-GLUT_glut_LIBRARY_RELEASE:FILEPATH=GLUT_glut_LIBRARY_RELEASE-NOTFOUND
-
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
@@ -339,12 +327,6 @@ OpenGLKickoff_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 OpenGLKickoff_SOURCE_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff
-
-//Arguments to supply to pkg-config
-PKG_CONFIG_ARGN:STRING=
-
-//pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 
 ########################
@@ -414,7 +396,11 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/Osprey/CLionProjects/OpenGLKickoff
@@ -522,7 +508,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Have include dinput.h
-DINPUT_H_FOUND:INTERNAL=1
+DINPUT_H_FOUND:INTERNAL=
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
@@ -533,22 +519,14 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL= -lgdi32
 //GLFW pkg-config Requires.private
 GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
-//ADVANCED property for variable: GLUT_INCLUDE_DIR
-GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLUT_glut_LIBRARY_DEBUG
-GLUT_glut_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLUT_glut_LIBRARY_RELEASE
-GLUT_glut_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PKG_CONFIG_ARGN
-PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
-PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=FALSE
 //Have include xinput.h
-XINPUT_H_FOUND:INTERNAL=1
+XINPUT_H_FOUND:INTERNAL=
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
