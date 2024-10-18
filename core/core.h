@@ -11,12 +11,12 @@
 
 #endif //CORE_H
 
-typedef struct {
-    kckWindow window;
-} kckContext;
+typedef struct kck_graphics_context{
+    kck_window window;
+} kck_graphics_context;
 
-kckContext kckInitializeGLFW();
+kck_graphics_context kck_initialize_context();
 
-int kckBeginLoop(kckContext* context);
-int kckEndLoop(kckContext* context);
-int kckDestroy(kckContext* context);
+int kck_begin_loop(kck_graphics_context* context);
+int kck_end_loop(kck_graphics_context* context);
+int kck_destroy(kck_graphics_context* context);

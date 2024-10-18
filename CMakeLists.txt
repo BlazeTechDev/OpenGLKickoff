@@ -19,7 +19,11 @@ add_executable(OpenGLKickoff main.c
         graphics/shader.c
         graphics/shader.h
         graphics/buffer.c
-        graphics/buffer.h)
+        graphics/buffer.h
+        core/io.c
+        core/io.h)
+
+file(COPY ${PROJECT_SOURCE_DIR}/local/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/local/)
 
 target_link_libraries(OpenGLKickoff glfw)
 target_link_libraries(OpenGLKickoff OpenGL::GL)

@@ -15,8 +15,8 @@ static void error_callback(int error, const char* description)
     fputs(description, stderr);
 }
 
-kckContext kckInitializeGLFW() {
-    kckContext context = {};
+kck_graphics_context kck_initialize_context() {
+    kck_graphics_context context = {};
     glfwSetErrorCallback(error_callback);
     if (!glfwInit())
         exit(EXIT_FAILURE);
@@ -33,14 +33,13 @@ kckContext kckInitializeGLFW() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    context.window = createWindow("OpenGL Example", 640, 480);
+    context.window = kck_create_window("OpenGL Example", 640, 480);
     if (!context.window.glfwWindow)
     {
         glfwTerminate();
         exit(EXIT_FAILURE);
     }
     glfwMakeContextCurrent(context.window.glfwWindow);
-    glfwSwapInterval(1);
 
     if (!gladLoadGLLoader(glfwGetProcAddress))
     {
@@ -52,19 +51,19 @@ kckContext kckInitializeGLFW() {
     return context;
 }
 
-int kckBeginLoop(kckContext* context) {
+int kck_begin_loop(kck_graphics_context* context) {
     // Clear color buffer to black
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
-int kckEndLoop(kckContext* context) {
+int kck_end_loop(kck_graphics_context* context) {
     // Swap buffers
-    glfwSwapBuffers( context->window.glfwWindow);
+    glfwSwapBuffers(context->window.glfwWindow);
     glfwPollEvents();
 }
 
-int kckDestroy(kckContext* context) {
+int kck_destroy(kck_graphics_context* context) {
     glfwDestroyWindow(context->window.glfwWindow);
     glfwTerminate();
     exit(EXIT_SUCCESS);

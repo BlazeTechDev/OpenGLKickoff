@@ -98,6 +98,13 @@ build CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: C_COMPILER__OpenGLKick
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\graphics
 
+build CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/io.c || cmake_object_order_depends_target_OpenGLKickoff
+  DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\io.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OpenGLKickoff
@@ -106,7 +113,7 @@ build CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: C_COMPILER__OpenGLKick
 #############################################
 # Link the executable OpenGLKickoff.exe
 
-build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj | ext/glfw-3.4/src/libglfw3.a || ext/glfw-3.4/src/libglfw3.a
+build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj CMakeFiles/OpenGLKickoff.dir/core/io.c.obj | ext/glfw-3.4/src/libglfw3.a || ext/glfw-3.4/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = ext/glfw-3.4/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir

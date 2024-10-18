@@ -6,8 +6,8 @@
 
 #include <stdio.h>
 
-kckWindow createWindow(char* title, int width, int height) {
-    kckWindow w = {};
+kck_window kck_create_window(char* title, int width, int height) {
+    kck_window w = {};
     w.title = title;
     w.width = width;
     w.height = height;

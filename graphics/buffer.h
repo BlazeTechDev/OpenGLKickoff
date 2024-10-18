@@ -9,17 +9,32 @@
 
 #endif //BUFFER_H
 
-typedef struct kckBuffer {
-    __uint128_t id;
-    __uint128_t size;
+typedef struct kck_vao {
+    unsigned int id;
+} kck_vao;
+
+typedef struct kck_buffer {
+    unsigned int id;
+    unsigned int size;
 } kck_buffer;
 
-typedef struct kckVertexBuffer {
+typedef struct kck_vertex_buffer {
     kck_buffer buffer;
     int vertexCount;
-} kckVertexBuffer;
+} kck_vertex_buffer;
 
-typedef struct kckIndexBuffer {
+typedef struct kck_index_buffer {
     kck_buffer buffer;
     int indexCount;
-} kckIndexBuffer;
+} kck_index_buffer;
+
+kck_vao kck_create_vao();
+
+kck_buffer kck_create_buffer();
+
+kck_vertex_buffer kck_create_vertex_buffer(int vertexCount);
+int kck_put_vertex_buffer(kck_vertex_buffer* buffer, float* data, int data_size);
+int kck_create_vertex_attrib_pointer(int location, int size, int type);
+
+kck_index_buffer kck_create_index_buffer(int indexCount);
+int kck_put_index_buffer(kck_index_buffer* buffer, int* data);

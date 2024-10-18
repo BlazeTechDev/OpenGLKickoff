@@ -12,11 +12,11 @@
 
 #endif //WINDOW_H
 
-typedef struct kckWindow
+typedef struct kck_window
 {
     GLFWwindow* glfwWindow;
     char* title;
     int width, height;
-} kckWindow;
+} kck_window;
 
-kckWindow createWindow(char* title, int width, int height);
+kck_window kck_create_window(char* title, int width, int height);
