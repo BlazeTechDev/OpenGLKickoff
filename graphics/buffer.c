@@ -6,11 +6,33 @@
 
 #include <glad/glad.h>
 
+#include "../../../AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h"
+
 kck_vao kck_create_vao() {
     kck_vao vao = {};
     glGenVertexArrays(1, &vao.id);
     glBindVertexArray(vao.id);
     return vao;
+}
+
+int kck_bind_vao(kck_vao* vao) {
+    if(vao == NULL) {
+        glBindVertexArray(0);
+    }
+    else {
+        glBindVertexArray(vao->id);
+    }
+}
+
+int kck_store_buffer_in_vao(kck_vao* vao, kck_buffer* buffer, kck_buffer_type buffer_type) {
+    switch (buffer_type) {
+        case KCK_VERTEX_BUFFER:
+            vao->vertex_buffer = buffer;
+        case KCK_INDEX_BUFFER:
+            vao->index_buffer = buffer;
+        default:
+            break;
+    }
 }
 
 kck_buffer kck_create_buffer() {

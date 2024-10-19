@@ -1,27 +1,7 @@
 C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Osprey/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\Osprey\CLionProjects\OpenGLKickoff -B C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug
--- The C compiler identification is GNU 6.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Found OpenGL: opengl32
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - not found
--- Check if compiler accepts -pthread
--- Check if compiler accepts -pthread - no
--- Found Threads: TRUE
 -- Including Win32 support
--- Looking for dinput.h
--- Looking for dinput.h - not found
--- Looking for xinput.h
--- Looking for xinput.h - not found
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Documentation generation requires Doxygen 1.9.8 or later
--- Configuring done (2.7s)
+-- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug

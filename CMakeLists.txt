@@ -21,7 +21,9 @@ add_executable(OpenGLKickoff main.c
         graphics/buffer.c
         graphics/buffer.h
         core/io.c
-        core/io.h)
+        core/io.h
+        graphics/utils.c
+        graphics/utils.h)
 
 file(COPY ${PROJECT_SOURCE_DIR}/local/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/local/)
 

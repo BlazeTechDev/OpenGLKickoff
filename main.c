@@ -5,6 +5,7 @@
 #include "core/core.h"
 #include "graphics/buffer.h"
 #include "graphics/shader.h"
+#include "graphics/utils.h"
 
 int main(void)
 {
@@ -27,17 +28,15 @@ int main(void)
     kck_index_buffer i_buffer = kck_create_index_buffer(6);
     kck_put_index_buffer(&i_buffer, indices, 6);
     kck_create_vertex_attrib_pointer(0, 3, GL_FLOAT);
+    kck_bind_vao(0);
+
+    kck_store_buffer_in_vao(&vao, &buffer.buffer, KCK_VERTEX_BUFFER);
+    kck_store_buffer_in_vao(&vao, &i_buffer.buffer, KCK_INDEX_BUFFER);
 
     while (!glfwWindowShouldClose(context.window.glfwWindow)) {
         kck_begin_loop(&context);
 
-        glBindVertexArray(vao.id);
-
-        glEnableVertexAttribArray(0);
-
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-        glDisableVertexAttribArray(0);
+        kck_draw_indexed(&vao);
 
         kck_end_loop(&context);
     }
