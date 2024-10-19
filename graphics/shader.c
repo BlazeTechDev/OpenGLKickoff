@@ -10,6 +10,7 @@
 
 kck_shader kck_create_shader(kck_shader_type shader_type) {
     kck_shader shader = {};
+    shader.type = shader_type;
     switch (shader_type) {
         case KCK_VERTEX_SHADER:
             shader.id = glCreateShader(GL_VERTEX_SHADER);
@@ -30,9 +31,7 @@ kck_shader_program kck_create_shader_program() {
 int kck_load_shader(kck_shader* shader, const char* local_path, kck_shader_type shader_type) {
     const char* shader_source = kck_read_file_local(local_path);
 
-    shader->type = shader_type;
-
-    glShaderSource(shader->id, 1, shader_source, NULL);
+    glShaderSource(shader->id, 1, &shader_source, NULL);
     glCompileShader(shader->id);
 
     int success;

@@ -22,6 +22,13 @@ int main(void)
         1, 2, 3    // second triangle
     };
 
+    kck_shader vertex_shader = kck_create_shader(KCK_VERTEX_SHADER);
+    kck_load_shader(&vertex_shader, "local/shaders/default_vertex.vert", KCK_VERTEX_SHADER);
+    kck_shader fragment_shader = kck_create_shader(KCK_FRAGMENT_SHADER);
+    kck_load_shader(&fragment_shader, "local/shaders/default_frag.frag", KCK_FRAGMENT_SHADER);
+    kck_shader_program program = kck_create_shader_program();
+    kck_load_shader_program(&program, &vertex_shader, &fragment_shader);
+
     kck_vao vao = kck_create_vao();
     kck_vertex_buffer buffer = kck_create_vertex_buffer(12);
     kck_put_vertex_buffer(&buffer, vertices, 12);
