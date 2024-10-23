@@ -6,12 +6,8 @@
 
 #include <glad/glad.h>
 
-int kck_draw_indexed(kck_vao* vao) {
+int kck_draw_indexed(kck_vao* vao, kck_shader_program* program) {
     glBindVertexArray(vao->id);
 
-    glEnableVertexAttribArray(0);
-
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-    glDisableVertexAttribArray(0);
 }

@@ -10,5 +10,6 @@
 #endif //UTILS_H
 
 #include "buffer.h"
+#include "shader.h"
 
-int kck_draw_indexed(kck_vao* vao);
+int kck_draw_indexed(kck_vao* vao, kck_shader_program* program);
