@@ -48,7 +48,7 @@ int main(void)
     while (!glfwWindowShouldClose(context.window.glfwWindow)) {
         kck_begin_loop(&context);
 
-        i += 0.1f;
+        i += 0.01f;
 
         glUseProgram(program.id);
 
