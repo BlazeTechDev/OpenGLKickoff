@@ -47,68 +47,68 @@ cmake_ninja_workdir = C$:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-d
 #############################################
 # Order-only phony target for OpenGLKickoff
 
-build cmake_object_order_depends_target_OpenGLKickoff: phony || cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_OpenGLKickoff: phony || cmake_object_order_depends_target_cglm cmake_object_order_depends_target_glfw
 
 build CMakeFiles/OpenGLKickoff.dir/main.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/main.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir
 
 build CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/window.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\window.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
 
 build CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/core.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\core.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
 
 build CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/input.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\input.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
 
 build CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/src/glad.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\ext\glad\src
 
 build CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/graphics/shader.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\graphics
 
 build CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/graphics/buffer.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\graphics
 
 build CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/io.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\io.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
 
 build CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/graphics/utils.c || cmake_object_order_depends_target_OpenGLKickoff
   DEP_FILE = CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\graphics
 
@@ -120,15 +120,39 @@ build CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: C_COMPILER__OpenGLKicko
 #############################################
 # Link the executable OpenGLKickoff.exe
 
-build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj CMakeFiles/OpenGLKickoff.dir/core/io.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj | ext/glfw-3.4/src/libglfw3.a || ext/glfw-3.4/src/libglfw3.a
+build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj CMakeFiles/OpenGLKickoff.dir/core/io.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj | ext/cglm/libcglm.dll.a ext/glfw/src/libglfw3.a || ext/cglm/libcglm-0.dll ext/glfw/src/libglfw3.a
   FLAGS = -g
-  LINK_LIBRARIES = ext/glfw-3.4/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = ext/cglm/libcglm.dll.a  ext/glfw/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_FILE = OpenGLKickoff.exe
   TARGET_IMPLIB = libOpenGLKickoff.dll.a
   TARGET_PDB = OpenGLKickoff.exe.dbg
+
+
+#############################################
+# Utility command for package
+
+build CMakeFiles/package.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build package: phony CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build package_source: phony CMakeFiles/package_source.util
 
 
 #############################################
@@ -204,83 +228,107 @@ build install/strip: phony CMakeFiles/install/strip.util
 #############################################
 # Utility command for uninstall
 
-build ext/glfw-3.4/uninstall: phony ext/glfw-3.4/CMakeFiles/uninstall
+build ext/glfw/uninstall: phony ext/glfw/CMakeFiles/uninstall
+
+
+#############################################
+# Utility command for package
+
+build ext/glfw/CMakeFiles/package.util: CUSTOM_COMMAND ext/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build ext/glfw/package: phony ext/glfw/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build ext/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build ext/glfw/package_source: phony ext/glfw/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build ext/glfw-3.4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build ext/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build ext/glfw-3.4/edit_cache: phony ext/glfw-3.4/CMakeFiles/edit_cache.util
+build ext/glfw/edit_cache: phony ext/glfw/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build ext/glfw-3.4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
+build ext/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/rebuild_cache: phony ext/glfw-3.4/CMakeFiles/rebuild_cache.util
+build ext/glfw/rebuild_cache: phony ext/glfw/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build ext/glfw-3.4/list_install_components: phony
+build ext/glfw/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build ext/glfw-3.4/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+build ext/glfw/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/install: phony ext/glfw-3.4/CMakeFiles/install.util
+build ext/glfw/install: phony ext/glfw/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build ext/glfw-3.4/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build ext/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/install/local: phony ext/glfw-3.4/CMakeFiles/install/local.util
+build ext/glfw/install/local: phony ext/glfw/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build ext/glfw-3.4/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build ext/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/install/strip: phony ext/glfw-3.4/CMakeFiles/install/strip.util
+build ext/glfw/install/strip: phony ext/glfw/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for ext\glfw-3.4\CMakeFiles\uninstall
+# Custom command for ext\glfw\CMakeFiles\uninstall
 
-build ext/glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}ext/glfw-3.4/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4 && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/cmake_uninstall.cmake"
+build ext/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}ext/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMakeLists.txt
+# C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -292,173 +340,173 @@ build ext/glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}ext/glfw-3.4/CMa
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\context.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/init.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\init.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/input.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\input.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/monitor.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\monitor.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/platform.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\platform.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/vulkan.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/window.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\window.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/egl_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/null_init.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\null_init.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/null_window.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\null_window.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_module.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_time.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_init.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/win32_window.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
-build ext/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = ext\glfw-3.4\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
+  DEP_FILE = ext\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/deps/mingw
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/deps/mingw
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = ext\glfw\src\CMakeFiles\glfw.dir
 
 
 # =============================================================================
@@ -466,177 +514,703 @@ build ext/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_u
 
 
 #############################################
-# Link the static library ext\glfw-3.4\src\libglfw3.a
+# Link the static library ext\glfw\src\libglfw3.a
 
-build ext/glfw-3.4/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug ext/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj ext/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+build ext/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug ext/glfw/src/CMakeFiles/glfw.dir/context.c.obj ext/glfw/src/CMakeFiles/glfw.dir/init.c.obj ext/glfw/src/CMakeFiles/glfw.dir/input.c.obj ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj ext/glfw/src/CMakeFiles/glfw.dir/platform.c.obj ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj ext/glfw/src/CMakeFiles/glfw.dir/window.c.obj ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj ext/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj ext/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj ext/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj ext/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj ext/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj ext/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = ext\glfw-3.4\src\CMakeFiles\glfw.dir
+  OBJECT_DIR = ext\glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ext\glfw-3.4\src\libglfw3.a
+  TARGET_FILE = ext\glfw\src\libglfw3.a
   TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
 # Utility command for update_mappings
 
-build ext/glfw-3.4/src/update_mappings: phony ext/glfw-3.4/src/CMakeFiles/update_mappings
+build ext/glfw/src/update_mappings: phony ext/glfw/src/CMakeFiles/update_mappings
+
+
+#############################################
+# Utility command for package
+
+build ext/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND ext/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build ext/glfw/src/package: phony ext/glfw/src/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build ext/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build ext/glfw/src/package_source: phony ext/glfw/src/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build ext/glfw-3.4/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build ext/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build ext/glfw-3.4/src/edit_cache: phony ext/glfw-3.4/src/CMakeFiles/edit_cache.util
+build ext/glfw/src/edit_cache: phony ext/glfw/src/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build ext/glfw-3.4/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
+build ext/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/src/rebuild_cache: phony ext/glfw-3.4/src/CMakeFiles/rebuild_cache.util
+build ext/glfw/src/rebuild_cache: phony ext/glfw/src/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build ext/glfw-3.4/src/list_install_components: phony
+build ext/glfw/src/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build ext/glfw-3.4/src/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+build ext/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/src/install: phony ext/glfw-3.4/src/CMakeFiles/install.util
+build ext/glfw/src/install: phony ext/glfw/src/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build ext/glfw-3.4/src/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build ext/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/src/install/local: phony ext/glfw-3.4/src/CMakeFiles/install/local.util
+build ext/glfw/src/install/local: phony ext/glfw/src/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build ext/glfw-3.4/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build ext/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/src/install/strip: phony ext/glfw-3.4/src/CMakeFiles/install/strip.util
+build ext/glfw/src/install/strip: phony ext/glfw/src/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for ext\glfw-3.4\src\CMakeFiles\update_mappings
+# Custom command for ext\glfw\src\CMakeFiles\update_mappings
 
-build ext/glfw-3.4/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}ext/glfw-3.4/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+build ext/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}ext/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMakeLists.txt
+# C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMakeLists.txt
 # =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build ext/glfw/docs/CMakeFiles/package.util: CUSTOM_COMMAND ext/glfw/docs/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build ext/glfw/docs/package: phony ext/glfw/docs/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build ext/glfw/docs/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build ext/glfw/docs/package_source: phony ext/glfw/docs/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build ext/glfw-3.4/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build ext/glfw/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build ext/glfw-3.4/docs/edit_cache: phony ext/glfw-3.4/docs/CMakeFiles/edit_cache.util
+build ext/glfw/docs/edit_cache: phony ext/glfw/docs/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build ext/glfw-3.4/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
+build ext/glfw/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/docs/rebuild_cache: phony ext/glfw-3.4/docs/CMakeFiles/rebuild_cache.util
+build ext/glfw/docs/rebuild_cache: phony ext/glfw/docs/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build ext/glfw-3.4/docs/list_install_components: phony
+build ext/glfw/docs/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build ext/glfw-3.4/docs/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+build ext/glfw/docs/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw/docs/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/docs/install: phony ext/glfw-3.4/docs/CMakeFiles/install.util
+build ext/glfw/docs/install: phony ext/glfw/docs/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build ext/glfw-3.4/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build ext/glfw/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw/docs/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/docs/install/local: phony ext/glfw-3.4/docs/CMakeFiles/install/local.util
+build ext/glfw/docs/install/local: phony ext/glfw/docs/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build ext/glfw-3.4/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw-3.4\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build ext/glfw/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw/docs/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\docs && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build ext/glfw-3.4/docs/install/strip: phony ext/glfw-3.4/docs/CMakeFiles/install/strip.util
+build ext/glfw/docs/install/strip: phony ext/glfw/docs/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Osprey/CLionProjects/OpenGLKickoff/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target cglm
+
+
+#############################################
+# Order-only phony target for cglm
+
+build cmake_object_order_depends_target_cglm: phony || .
+
+build ext/cglm/CMakeFiles/cglm.dir/src/euler.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/euler.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\euler.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/affine.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/affine.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\affine.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/io.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/io.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\io.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/quat.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/quat.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\quat.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/cam.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/cam.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\cam.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/vec2.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\vec2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/ivec2.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/ivec2.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\ivec2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/vec3.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\vec3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/ivec3.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/ivec3.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\ivec3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/vec4.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\vec4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/ivec4.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/ivec4.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\ivec4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat2.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat2x3.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat2x3.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat2x3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat2x4.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat2x4.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat2x4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat3.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat3x2.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat3x2.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat3x2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat3x4.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat3x4.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat3x4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat4.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat4x2.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat4x2.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat4x2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/mat4x3.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/mat4x3.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\mat4x3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/plane.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/plane.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\plane.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/frustum.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\frustum.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/box.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/box.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\box.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/project.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/project.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\project.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/sphere.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\sphere.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/ease.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/ease.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\ease.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/curve.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/curve.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\curve.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/bezier.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\bezier.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/ray.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/ray.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\ray.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/affine2d.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\affine2d.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/ortho_lh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/ortho_lh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/ortho_rh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/ortho_rh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/persp_lh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/persp_lh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/persp_rh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/persp_rh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/view_lh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/view_lh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/view_rh_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/view_rh_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/project_no.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/project_no.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\project_no.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+build ext/cglm/CMakeFiles/cglm.dir/src/clipspace/project_zo.c.obj: C_COMPILER__cglm_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src/clipspace/project_zo.c || cmake_object_order_depends_target_cglm
+  DEFINES = -DCGLM_EXPORTS -Dcglm_EXPORTS
+  DEP_FILE = ext\cglm\CMakeFiles\cglm.dir\src\clipspace\project_zo.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -Wall
+  INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/src
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  OBJECT_FILE_DIR = ext\cglm\CMakeFiles\cglm.dir\src\clipspace
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target cglm
+
+
+#############################################
+# Link the shared library ext\cglm\libcglm-0.dll
+
+build ext/cglm/libcglm-0.dll ext/cglm/libcglm.dll.a: C_SHARED_LIBRARY_LINKER__cglm_Debug ext/cglm/CMakeFiles/cglm.dir/src/euler.c.obj ext/cglm/CMakeFiles/cglm.dir/src/affine.c.obj ext/cglm/CMakeFiles/cglm.dir/src/io.c.obj ext/cglm/CMakeFiles/cglm.dir/src/quat.c.obj ext/cglm/CMakeFiles/cglm.dir/src/cam.c.obj ext/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj ext/cglm/CMakeFiles/cglm.dir/src/ivec2.c.obj ext/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj ext/cglm/CMakeFiles/cglm.dir/src/ivec3.c.obj ext/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj ext/cglm/CMakeFiles/cglm.dir/src/ivec4.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat2x3.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat2x4.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat3x2.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat3x4.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat4x2.c.obj ext/cglm/CMakeFiles/cglm.dir/src/mat4x3.c.obj ext/cglm/CMakeFiles/cglm.dir/src/plane.c.obj ext/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj ext/cglm/CMakeFiles/cglm.dir/src/box.c.obj ext/cglm/CMakeFiles/cglm.dir/src/project.c.obj ext/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj ext/cglm/CMakeFiles/cglm.dir/src/ease.c.obj ext/cglm/CMakeFiles/cglm.dir/src/curve.c.obj ext/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj ext/cglm/CMakeFiles/cglm.dir/src/ray.c.obj ext/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/project_no.c.obj ext/cglm/CMakeFiles/cglm.dir/src/clipspace/project_zo.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = ext\cglm\CMakeFiles\cglm.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_FILE = ext\cglm\libcglm-0.dll
+  TARGET_IMPLIB = ext\cglm\libcglm.dll.a
+  TARGET_PDB = cglm-0.dll.dbg
+
+
+#############################################
+# Utility command for package
+
+build ext/cglm/CMakeFiles/package.util: CUSTOM_COMMAND ext/cglm/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build ext/cglm/package: phony ext/cglm/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build ext/cglm/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build ext/cglm/package_source: phony ext/cglm/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ext/cglm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\cglm && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ext/cglm/edit_cache: phony ext/cglm/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ext/cglm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\cglm && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\Osprey\CLionProjects\OpenGLKickoff -BC:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ext/cglm/rebuild_cache: phony ext/cglm/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build ext/cglm/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build ext/cglm/CMakeFiles/install.util: CUSTOM_COMMAND ext/cglm/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\cglm && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build ext/cglm/install: phony ext/cglm/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build ext/cglm/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/cglm/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\cglm && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build ext/cglm/install/local: phony ext/cglm/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build ext/cglm/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/cglm/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Osprey\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\cglm && C:\Users\Osprey\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build ext/cglm/install/strip: phony ext/cglm/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
 
 build OpenGLKickoff: phony OpenGLKickoff.exe
 
-build glfw: phony ext/glfw-3.4/src/libglfw3.a
+build cglm: phony ext/cglm/libcglm-0.dll
 
-build libglfw3.a: phony ext/glfw-3.4/src/libglfw3.a
+build glfw: phony ext/glfw/src/libglfw3.a
 
-build uninstall: phony ext/glfw-3.4/uninstall
+build libcglm-0.dll: phony ext/cglm/libcglm-0.dll
 
-build update_mappings: phony ext/glfw-3.4/src/update_mappings
+build libglfw3.a: phony ext/glfw/src/libglfw3.a
+
+build uninstall: phony ext/glfw/uninstall
+
+build update_mappings: phony ext/glfw/src/update_mappings
 
 # =============================================================================
 # Folder targets.
@@ -646,28 +1220,35 @@ build update_mappings: phony ext/glfw-3.4/src/update_mappings
 #############################################
 # Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug
 
-build all: phony OpenGLKickoff.exe ext/glfw-3.4/all
+build all: phony OpenGLKickoff.exe ext/glfw/all ext/cglm/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4
+# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/cglm
 
-build ext/glfw-3.4/all: phony ext/glfw-3.4/src/all ext/glfw-3.4/docs/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/docs
-
-build ext/glfw-3.4/docs/all: phony
+build ext/cglm/all: phony ext/cglm/libcglm-0.dll
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/src
+# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw
 
-build ext/glfw-3.4/src/all: phony ext/glfw-3.4/src/libglfw3.a
+build ext/glfw/all: phony ext/glfw/src/all ext/glfw/docs/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/docs
+
+build ext/glfw/docs/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/src
+
+build ext/glfw/src/all: phony ext/glfw/src/libglfw3.a
 
 # =============================================================================
 # Built-in targets
@@ -676,14 +1257,14 @@ build ext/glfw-3.4/src/all: phony ext/glfw-3.4/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Osprey/CLionProjects/OpenGLKickoff/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/cmake_uninstall.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/glfw3.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/glfw3Config.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/docs/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CPack.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/cglm.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3Config.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/docs/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Osprey/CLionProjects/OpenGLKickoff/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/cmake_uninstall.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/glfw3.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/CMake/glfw3Config.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/docs/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw-3.4/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CPack.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CPackComponent.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Osprey/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Templates/CPackConfig.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/cglm.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3.pc.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3Config.cmake.in C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/docs/CMakeLists.txt C$:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

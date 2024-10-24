@@ -71,3 +71,18 @@ int kck_cleanup_shader_program(kck_shader_program* shader_program, kck_shader* v
     glDeleteShader(fragment_shader->id);
     glDeleteProgram(shader_program->id);
 }
+
+int kck_upload_shader_uniform_float(kck_shader_program* shader_program, const char* uniform_name, float value) {
+    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
+    glUniform1f(uniform_location, value);
+}
+
+int kck_upload_shader_uniform_int(kck_shader_program* shader_program, const char* uniform_name, int value) {
+    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
+    glUniform1i(uniform_location, value);
+}
+
+int kck_upload_shader_uniform_vec2(kck_shader_program* shader_program, const char* uniform_name, vec2* value) {
+    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
+    glUniform2fv(uniform_location, 1, value);
+}

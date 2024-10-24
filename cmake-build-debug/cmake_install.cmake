@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw-3.4/cmake_install.cmake")
+  include("C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/cglm/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

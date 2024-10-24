@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.26)
 project(OpenGLKickoff C)
 
 find_package(OpenGL REQUIRED)
-add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glfw-3.4)
+add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glfw)
+add_subdirectory(${PROJECT_SOURCE_DIR}/ext/cglm)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -28,5 +29,6 @@ add_executable(OpenGLKickoff main.c
 file(REMOVE ${PROJECT_SOURCE_DIR}/local/)
 file(COPY ${PROJECT_SOURCE_DIR}/local/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/local/)
 
+target_link_libraries(OpenGLKickoff cglm)
 target_link_libraries(OpenGLKickoff glfw)
 target_link_libraries(OpenGLKickoff OpenGL::GL)
