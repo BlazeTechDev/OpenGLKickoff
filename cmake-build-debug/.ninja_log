@@ -112,3 +112,15 @@
 21	244	7514362493140473	ext/cglm/libcglm-0.dll	297ae1d12c9afb9d
 21	244	7514362493140473	ext/cglm/libcglm.dll.a	297ae1d12c9afb9d
 244	437	7514362493250426	OpenGLKickoff.exe	34debea5014be41
+15	185	7514367664798298	CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj	ea68e84ebcc6438d
+7	188	7514367664718291	CMakeFiles/OpenGLKickoff.dir/main.c.obj	56263192a231d4b6
+11	202	7514367664768315	CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj	b6789bd8aaa8547d
+202	400	7514367666674639	OpenGLKickoff.exe	34debea5014be41
+7	177	7514368800986264	CMakeFiles/OpenGLKickoff.dir/main.c.obj	56263192a231d4b6
+177	371	7514368802680102	OpenGLKickoff.exe	34debea5014be41
+7	173	7514368996288640	CMakeFiles/OpenGLKickoff.dir/main.c.obj	56263192a231d4b6
+173	360	7514368997948902	OpenGLKickoff.exe	34debea5014be41
+7	174	7514369138761660	CMakeFiles/OpenGLKickoff.dir/main.c.obj	56263192a231d4b6
+174	360	7514369140432502	OpenGLKickoff.exe	34debea5014be41
+7	171	7514369201950207	CMakeFiles/OpenGLKickoff.dir/main.c.obj	56263192a231d4b6
+171	358	7514369203585713	OpenGLKickoff.exe	34debea5014be41

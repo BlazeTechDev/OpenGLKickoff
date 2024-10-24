@@ -33,3 +33,6 @@ int kck_load_shader_program(kck_shader_program* shader_program, kck_shader* vert
 int kck_upload_shader_uniform_float(kck_shader_program* shader_program, const char* uniform_name, float value);
 int kck_upload_shader_uniform_int(kck_shader_program* shader_program, const char* uniform_name, int value);
 int kck_upload_shader_uniform_vec2(kck_shader_program* shader_program, const char* uniform_name, vec2* values);
+int kck_upload_shader_uniform_vec3(kck_shader_program* shader_program, const char* uniform_name, vec3* values);
+int kck_upload_shader_uniform_vec4(kck_shader_program* shader_program, const char* uniform_name, vec4* values);
+int kck_upload_shader_uniform_mat4(kck_shader_program* shader_program, const char* uniform_name, mat4* values);

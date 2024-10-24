@@ -4,6 +4,7 @@
 
 #include "shader.h"
 
+#include <windef.h>
 #include <glad/glad.h>
 
 #include "../core/io.h"
@@ -73,16 +74,25 @@ int kck_cleanup_shader_program(kck_shader_program* shader_program, kck_shader* v
 }
 
 int kck_upload_shader_uniform_float(kck_shader_program* shader_program, const char* uniform_name, float value) {
-    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
-    glUniform1f(uniform_location, value);
+    glUniform1f(glGetUniformLocation(shader_program->id, uniform_name), value);
 }
 
 int kck_upload_shader_uniform_int(kck_shader_program* shader_program, const char* uniform_name, int value) {
-    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
-    glUniform1i(uniform_location, value);
+    glUniform1i(glGetUniformLocation(shader_program->id, uniform_name), value);
 }
 
 int kck_upload_shader_uniform_vec2(kck_shader_program* shader_program, const char* uniform_name, vec2* value) {
-    int uniform_location = glGetUniformLocation(shader_program->id, uniform_name);
-    glUniform2fv(uniform_location, 1, value);
+    glUniform2fv(glGetUniformLocation(shader_program->id, uniform_name), 1, value);
+}
+
+int kck_upload_shader_uniform_vec3(kck_shader_program* shader_program, const char* uniform_name, vec3* value) {
+    glUniform3fv(glGetUniformLocation(shader_program->id, uniform_name), 1, value);
+}
+
+int kck_upload_shader_uniform_vec4(kck_shader_program* shader_program, const char* uniform_name, vec4* value) {
+    glUniform4fv(glGetUniformLocation(shader_program->id, uniform_name), 1, value);
+}
+
+int kck_upload_shader_uniform_mat4(kck_shader_program* shader_program, const char* uniform_name, mat4* value) {
+    glUniformMatrix4fv(glGetUniformLocation(shader_program->id, uniform_name), 16, FALSE, value);
 }

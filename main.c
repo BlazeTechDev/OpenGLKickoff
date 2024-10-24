@@ -43,10 +43,16 @@ int main(void)
     kck_store_buffer_in_vao(&vao, &buffer.buffer, KCK_VERTEX_BUFFER);
     kck_store_buffer_in_vao(&vao, &i_buffer.buffer, KCK_INDEX_BUFFER);
 
+    float i = 0;
+
     while (!glfwWindowShouldClose(context.window.glfwWindow)) {
         kck_begin_loop(&context);
 
+        i += 0.1f;
+
         glUseProgram(program.id);
+
+        kck_upload_shader_uniform_float(&program, "delta", i);
 
         kck_draw_indexed(&vao, &program);
 
