@@ -14,8 +14,10 @@ kck_shader kck_create_shader(kck_shader_type shader_type) {
     switch (shader_type) {
         case KCK_VERTEX_SHADER:
             shader.id = glCreateShader(GL_VERTEX_SHADER);
+            break;
         case KCK_FRAGMENT_SHADER:
             shader.id = glCreateShader(GL_FRAGMENT_SHADER);
+            break;
         default:
             break;
     }
@@ -28,7 +30,7 @@ kck_shader_program kck_create_shader_program() {
     return shader_program;
 }
 
-int kck_load_shader(kck_shader* shader, const char* local_path, kck_shader_type shader_type) {
+int kck_load_shader(kck_shader* shader, const char* local_path) {
     const char* shader_source = kck_read_file_local(local_path);
 
     glShaderSource(shader->id, 1, &shader_source, NULL);

@@ -25,6 +25,7 @@ add_executable(OpenGLKickoff main.c
         graphics/utils.c
         graphics/utils.h)
 
+file(REMOVE ${PROJECT_SOURCE_DIR}/local/)
 file(COPY ${PROJECT_SOURCE_DIR}/local/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/local/)
 
 target_link_libraries(OpenGLKickoff glfw)

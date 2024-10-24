@@ -23,9 +23,11 @@ int main(void)
     };
 
     kck_shader vertex_shader = kck_create_shader(KCK_VERTEX_SHADER);
-    kck_load_shader(&vertex_shader, "local/shaders/default_vertex.glsl", KCK_VERTEX_SHADER);
+    kck_load_shader(&vertex_shader, "local/shaders/default_vertex.glsl");
+
     kck_shader fragment_shader = kck_create_shader(KCK_FRAGMENT_SHADER);
-    kck_load_shader(&fragment_shader, "local/shaders/default_frag.glsl", KCK_FRAGMENT_SHADER);
+    kck_load_shader(&fragment_shader, "local/shaders/default_frag.glsl");
+
     kck_shader_program program = kck_create_shader_program();
     kck_load_shader_program(&program, &vertex_shader, &fragment_shader);
 
