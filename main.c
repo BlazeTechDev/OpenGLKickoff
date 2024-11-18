@@ -3,13 +3,14 @@
 #include <GLFW/glfw3.h>
 
 #include "core/core.h"
+#include "core/input.h"
 #include "graphics/buffer.h"
 #include "graphics/shader.h"
 #include "graphics/utils.h"
 
 int main(void)
 {
-    kck_graphics_context context = kck_initialize_context();
+    kck_graphics_context context = kck_initialize_graphics_context();
 
     float vertices[] = {
         0.5f,  0.5f, 0.0f,  // top right

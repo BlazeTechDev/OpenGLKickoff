@@ -42,7 +42,7 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=C:/MinGW/bin/c++.exe
+CMAKE_CXX_COMPILER:STRING=C:/MinGW/bin/c++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -451,6 +451,18 @@ OpenGLKickoff_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 OpenGLKickoff_SOURCE_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff
+
+//Path to a program.
+VALGRIND:FILEPATH=VALGRIND-NOTFOUND
+
+//Value Computed by CMake
+c-vector_BINARY_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/c-vector
+
+//Value Computed by CMake
+c-vector_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+c-vector_SOURCE_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/c-vector
 
 //Value Computed by CMake
 cglm_BINARY_DIR:STATIC=C:/Users/Osprey/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/cglm

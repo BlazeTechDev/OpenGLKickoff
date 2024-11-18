@@ -56,8 +56,8 @@ build CMakeFiles/OpenGLKickoff.dir/main.c.obj: C_COMPILER__OpenGLKickoff_unscann
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir
 
-build CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/window.c || cmake_object_order_depends_target_OpenGLKickoff
-  DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\window.c.obj.d
+build CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/input.c || cmake_object_order_depends_target_OpenGLKickoff
+  DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\input.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
@@ -70,8 +70,8 @@ build CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: C_COMPILER__OpenGLKickoff_un
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGLKickoff.dir\core
 
-build CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/input.c || cmake_object_order_depends_target_OpenGLKickoff
-  DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\input.c.obj.d
+build CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: C_COMPILER__OpenGLKickoff_unscanned_Debug C$:/Users/Osprey/CLionProjects/OpenGLKickoff/core/window.c || cmake_object_order_depends_target_OpenGLKickoff
+  DEP_FILE = CMakeFiles\OpenGLKickoff.dir\core\window.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glad/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/cglm/include -IC:/Users/Osprey/CLionProjects/OpenGLKickoff/ext/glfw/include
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir
@@ -120,7 +120,7 @@ build CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: C_COMPILER__OpenGLKicko
 #############################################
 # Link the executable OpenGLKickoff.exe
 
-build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj CMakeFiles/OpenGLKickoff.dir/core/io.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj | ext/cglm/libcglm.dll.a ext/glfw/src/libglfw3.a || ext/cglm/libcglm-0.dll ext/glfw/src/libglfw3.a
+build OpenGLKickoff.exe: C_EXECUTABLE_LINKER__OpenGLKickoff_Debug CMakeFiles/OpenGLKickoff.dir/main.c.obj CMakeFiles/OpenGLKickoff.dir/core/input.c.obj CMakeFiles/OpenGLKickoff.dir/core/core.c.obj CMakeFiles/OpenGLKickoff.dir/core/window.c.obj CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj CMakeFiles/OpenGLKickoff.dir/core/io.c.obj CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj | ext/cglm/libcglm.dll.a ext/glfw/src/libglfw3.a || ext/cglm/libcglm-0.dll ext/glfw/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = ext/cglm/libcglm.dll.a  ext/glfw/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGLKickoff.dir

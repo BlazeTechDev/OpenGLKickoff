@@ -1,7 +1,3 @@
-//
-// Created by Osprey on 10/17/2024.
-//
-
 #include "core.h"
 
 #include <stdio.h>
@@ -9,13 +5,15 @@
 
 #include <glad/glad.h>
 
+#include "input.h"
+
 
 static void error_callback(int error, const char* description)
 {
     fputs(description, stderr);
 }
 
-kck_graphics_context kck_initialize_context() {
+kck_graphics_context kck_initialize_graphics_context() {
     kck_graphics_context context = {};
     glfwSetErrorCallback(error_callback);
     if (!glfwInit())
@@ -39,10 +37,12 @@ kck_graphics_context kck_initialize_context() {
         glfwTerminate();
         exit(EXIT_FAILURE);
     }
+
+    glfwSetKeyCallback(context.window.glfwWindow, kck_key_callback);
+
     glfwMakeContextCurrent(context.window.glfwWindow);
 
-    if (!gladLoadGLLoader(glfwGetProcAddress))
-    {
+    if (!gladLoadGLLoader(glfwGetProcAddress)) {
         printf("Failed to Initialize Glad");
         glfwTerminate();
         exit(EXIT_FAILURE);
