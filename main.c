@@ -53,6 +53,8 @@ int main(void)
 
         glUseProgram(program.id);
 
+        printf("%f\n", kck_input_context.mouse_position[0]);
+
         kck_upload_shader_uniform_float(&program, "delta", i);
 
         kck_draw_indexed(&vao, &program);
@@ -60,4 +62,7 @@ int main(void)
         kck_end_loop(&context);
     }
     kck_destroy(&context);
+
+    kck_input_free();
+    kck_windowing_free();
 }

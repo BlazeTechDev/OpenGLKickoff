@@ -39,6 +39,10 @@ kck_graphics_context kck_initialize_graphics_context() {
     }
 
     glfwSetKeyCallback(context.window.glfwWindow, kck_key_callback);
+    glfwSetMouseButtonCallback(context.window.glfwWindow, kck_mouse_button_callback);
+    glfwSetScrollCallback(context.window.glfwWindow, kck_mouse_scroll_callback);
+    glfwSetCursorPosCallback(context.window.glfwWindow, kck_mouse_motion_callback);
+    glfwSetWindowSizeCallback(context.window.glfwWindow, kck_window_resize_callback);
 
     glfwMakeContextCurrent(context.window.glfwWindow);
 
