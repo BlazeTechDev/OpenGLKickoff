@@ -1,7 +1,0 @@
-C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\micha\CLionProjects\OpenGLKickoff -B C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug
--- Including Win32 support
--- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
--- Documentation generation requires Doxygen 1.9.8 or later
--- Configuring done (0.5s)
--- Generating done (0.2s)
--- Build files have been written to: C:/Users/micha/CLionProjects/OpenGLKickoff/cmake-build-debug
